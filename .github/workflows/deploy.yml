@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -30,17 +30,21 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 24
+          node-version: 22
           cache: pnpm
+
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build application
         run: pnpm build
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}/
+          SITE_URL: https://shrestha-hari.github.io/ME-RE-system
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

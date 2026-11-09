@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   description:
     'Premier land development, verified land plotting, residential colonies, and property investment advisory across Kathmandu Valley and Nepal with 100% clear Lalpurja ownership.',
   author: 'Mt. Everest Real-Estate',
-  url: 'https://mteverestrealestate.com.np',
+  url: 'https://shrestha-hari.github.io/ME-RE-system',
   email: 'info@mteverestrealestate.com.np',
   phone: '(+977) 01-4498221 / 9851082210',
   resumeUrl: getAssetUrl('brochure.pdf'),

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mteverestrealestate.com.np/sitemap.xml
+Sitemap: https://shrestha-hari.github.io/ME-RE-system/sitemap.xml

@@ -9,7 +9,7 @@ const rootDir = path.resolve(__dirname, '..')
 const distDir = path.join(rootDir, 'dist')
 const publicDir = path.join(rootDir, 'public')
 
-const BASE_URL = 'https://mteverestrealestate.com.np'
+const BASE_URL = process.env.SITE_URL || 'https://shrestha-hari.github.io/ME-RE-system'
 const TODAY = new Date().toISOString().split('T')[0]
 
 // Define all public crawlable routes with SEO metadata

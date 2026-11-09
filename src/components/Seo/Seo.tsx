@@ -41,7 +41,7 @@ export const Seo: React.FC<SeoProps> = ({
     name: 'Mt. Everest Real-Estate',
     alternateName: ['Mt Everest Real Estate', 'MER Nepal', 'Mount Everest Real Estate'],
     description: SITE_CONFIG.description,
-    url: 'https://mteverestrealestate.com.np',
+    url: 'https://shrestha-hari.github.io/ME-RE-system',
     logo: `${SITE_CONFIG.url}/images/background.webp`,
     image: absoluteImageUrl,
     telephone: '(+977) 01-4498221',
