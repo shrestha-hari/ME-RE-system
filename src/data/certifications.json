@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Government Company Registration & Operating License",
+    "issuer": "Office of the Company Registrar, Nepal",
+    "credentialUrl": "#about",
+    "topics": "Authorized enterprise for real estate development, land plotting, construction, and property management."
+  },
+  {
+    "title": "Active Member of Real Estate Association of Nepal (REAN)",
+    "issuer": "REAN Nepal",
+    "credentialUrl": "#about",
+    "topics": "Committed to REAN ethical trade code, transparent pricing, and standard industry consumer protection."
+  },
+  {
+    "title": "Registered Cadastral Mapping & Digital Survey Certification",
+    "issuer": "Department of Survey (Napi Karyalaya)",
+    "credentialUrl": "#about",
+    "topics": "Official survey verification of boundary coordinates, total station mapping, and cadastral sheet alignment."
+  },
+  {
+    "title": "Municipal Town Development Approved Plotting Standards",
+    "issuer": "Kathmandu Valley Development Authority (KVDA)",
+    "credentialUrl": "#about",
+    "topics": "Adherence to mandatory open space allocations, road width mandates (minimum 20ft), and drainage setbacks."
+  },
+  {
+    "title": "Clear Title Deed & Encumbrance Verification Protocol",
+    "issuer": "Land Revenue Office (Malpot Karyalaya)",
+    "credentialUrl": "#about",
+    "topics": "Rigorous title auditing verifying unencumbered ownership, tax clearance, and immediate legal transferability."
+  },
+  {
+    "title": "Tier-1 Commercial Bank Empanelled Land Developer",
+    "issuer": "Banking Consortium Nepal",
+    "credentialUrl": "#about",
+    "topics": "Pre-approved residential land projects eligible for streamlined home and land financing up to 70% valuation."
+  },
+  {
+    "title": "Geotechnical Soil Bearing & Structural Safety Clearance",
+    "issuer": "Engineering Geoconsult Nepal",
+    "credentialUrl": "#about",
+    "topics": "Soil sample core testing, slope shear stability, and foundation recommendation reports for every plotted block."
+  },
+  {
+    "title": "Environmental Compliance & Green Buffer Certification",
+    "issuer": "Ministry of Forests & Environment Guidelines",
+    "credentialUrl": "#about",
+    "topics": "Preservation of natural water channels, natural gradients, and dedicated communal green tree plantations."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "dr-rajesh-karki",
+    "name": "Dr. Rajesh Karki",
+    "prefix": "Dr.",
+    "role": "Senior Consultant Physician & Landowner",
+    "organization": "Everest Green Valley Resident, Godawari",
+    "phone": "+977 98510XXXXX",
+    "category": "Residential Land Buyer",
+    "relationship": "Purchased 5 Aana Residential Plot in Godawari",
+    "initials": "RK",
+    "featured": true,
+    "quote": "Buying land in Nepal often comes with fear of boundary disputes or fake papers. Mt. Everest Real-Estate made the entire experience effortless. From official Napi survey demarcation to the Malpot title transfer, everything took less than a week with absolute transparency. The 22ft road and underground drainage are top-notch."
+  },
+  {
+    "id": "sunita-bajracharya",
+    "name": "Sunita Bajracharya",
+    "prefix": "Ms.",
+    "role": "Non-Resident Nepali (NRN) Investor",
+    "organization": "Property Portfolio Owner (Sydney, Australia)",
+    "phone": "+61 4123XXXXX",
+    "category": "Diaspora Investor",
+    "relationship": "Invested in 2 Colony Plots in Budhanilkantha",
+    "initials": "SB",
+    "featured": true,
+    "quote": "Living in Australia, it was impossible for me to physically verify land in Kathmandu. Mt. Everest Real-Estate provided digital drone videos, certified cadastral maps, and coordinated with my attorney for paper verification. Within two years, my plot in Budhanilkantha has appreciated by over 35%. Highly reliable team."
+  },
+  {
+    "id": "birendra-man-shrestha",
+    "name": "Birendra Man Shrestha",
+    "prefix": "Er.",
+    "role": "Civil Engineering Contractor",
+    "organization": "Shrestha Builders & Developers",
+    "phone": "+977 98412XXXXX",
+    "category": "Commercial Client",
+    "relationship": "Acquired 1.5 Ropani Commercial Plot in Bhaktapur",
+    "initials": "BS",
+    "featured": true,
+    "quote": "As a civil engineer, my highest priority is soil bearing capacity and road width. Mt. Everest Real-Estate delivers real plotting—not just dirt tracks. Their asphalt compaction, stormwater box culverts, and 3-phase electricity layout exceeded my expectations for our commercial development."
+  },
+  {
+    "id": "keshav-adhikari",
+    "name": "Keshav Adhikari",
+    "prefix": "Mr.",
+    "role": "Retired Bank Executive",
+    "organization": "Matatirtha Pine Vista Resident",
+    "phone": "+977 98011XXXXX",
+    "category": "Retirement Home Builder",
+    "relationship": "Purchased 4 Aana Plot for Family Residence",
+    "initials": "KA",
+    "featured": false,
+    "quote": "The team at Mt. Everest Real-Estate handled our land registration and municipal building permission paperwork seamlessly. We built our dream retirement home with fresh air and zero legal headaches. I recommend them to any family looking for peaceful, genuine land."
+  },
+  {
+    "id": "prashant-thapa",
+    "name": "Prashant Thapa",
+    "prefix": "Mr.",
+    "role": "Managing Director",
+    "organization": "Himalayan Hospitality Resorts (Pokhara)",
+    "phone": "+977 98560XXXXX",
+    "category": "Resort Land Client",
+    "relationship": "Acquired 4 Ropani Lakeview Parcel in Pame",
+    "initials": "PT",
+    "featured": false,
+    "quote": "Their knowledge of local land regulations in Pokhara and prompt title search saved us months of due diligence. Mt. Everest Real-Estate delivered exactly what they promised—a clean, motorable lakeview land parcel with ready utilities."
+  }
+]

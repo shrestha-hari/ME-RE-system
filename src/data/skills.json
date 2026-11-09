@@ -1,0 +1,80 @@
+[
+  {
+    "category": "Land Plotting & Subdivision",
+    "description": "Comprehensive master planning, cadastral layout design, road grading (20ft-32ft standards), and municipal plotting approvals.",
+    "items": [
+      "Master Colony Planning",
+      "Cadastral Map Demarcation (Napi)",
+      "Road Network Design (20ft+)",
+      "Stormwater Drainage Systems",
+      "Plot Dimensioning (3 to 10 Aana)",
+      "Gated Perimeter Security Setup",
+      "Underground Utility Conduit Laying"
+    ]
+  },
+  {
+    "category": "Legal Due Diligence & Title Transfer",
+    "description": "Guaranteed legal verification, land revenue office (Malpot) records search, non-encumbrance assurance, and transparent ownership transfer.",
+    "items": [
+      "Lalpurja Title Deed Verification",
+      "Malpot Rokka & Phukhuwa Verification",
+      "Pusta-Wari (Inheritance & Lineage) Checking",
+      "Official Likhat Registration & Pass",
+      "Municipal Ward Boundary Certification",
+      "Zero-Litigation Legal Guarantee",
+      "Land Ownership Tax (Tiro) Auditing"
+    ]
+  },
+  {
+    "category": "Topographic Surveying & Soil Testing",
+    "description": "High-precision total station surveying, contour mapping, soil bearing capacity evaluation, and slope stabilization analysis.",
+    "items": [
+      "Total Station Digital Survey",
+      "Contour & Topography Mapping",
+      "Drone Aerial Photogrammetry",
+      "Geotechnical Soil Bearing Tests",
+      "Groundwater Table Assessment",
+      "Slope Stability & Retaining Design",
+      "Municipal Drawing Permits"
+    ]
+  },
+  {
+    "category": "Property Valuation & Market Advisory",
+    "description": "In-depth comparative market analysis (CMA), bank valuation guidance, capital appreciation forecasting, and strategic land investment portfolios.",
+    "items": [
+      "Comparative Market Analysis (CMA)",
+      "Bank Mortgage Valuation Advisory",
+      "Highway Corridor Growth Projections",
+      "Rental Yield & Capital Gain Projections",
+      "Bulk Land Acquisition Sourcing",
+      "Portfolio Diversification for NRIs & Investors",
+      "Subdivision Yield Optimization"
+    ]
+  },
+  {
+    "category": "Commercial & Institutional Land Sourcing",
+    "description": "Customized land parcel sourcing for commercial plazas, schools, colleges, hospitals, industrial warehouses, and tourism resorts.",
+    "items": [
+      "Highway Frontage Land Sourcing",
+      "Multi-Ropani & Bigha Aggregations",
+      "Industrial Power & Road Feasibility",
+      "Hospital & Institutional Clearances",
+      "Hospitality & Resort Hilltop Parcels",
+      "Warehouse Logistics Land Sourcing",
+      "Joint Venture (JV) Land Partnerships"
+    ]
+  },
+  {
+    "category": "Infrastructure & Turnkey Development",
+    "description": "On-ground execution of physical infrastructure, blacktop asphalt laying, boundary demarcation, water boring, and landscaping.",
+    "items": [
+      "Asphalt & Interlocking Paver Roads",
+      "Dedicated Deep Boring Water Plants",
+      "Dedicated Electricity Transformers",
+      "Compound Boundary Wall Construction",
+      "Street Solar Light Installation",
+      "Green Buffer & Tree Planting",
+      "Security Gatehouse Construction"
+    ]
+  }
+]

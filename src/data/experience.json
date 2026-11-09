@@ -1,0 +1,55 @@
+[
+  {
+    "id": "mer-phase-3",
+    "number": "01",
+    "role": "Flagship Colony Developments & Urban Subdivisions",
+    "company": "Mt. Everest Real-Estate Development Wing",
+    "location": "Kathmandu, Lalitpur & Bhaktapur, Nepal",
+    "period": "2022 - Present",
+    "type": "Master Planned Projects",
+    "description": "Leading 8 premier plotted colonies spanning over 75 Ropanis across Kathmandu Valley, delivering high-spec road infrastructure, underground utilities, and 100% verified individual Lalpurja handovers.",
+    "highlights": [
+      "Completed and handed over 320+ demarcated residential and commercial parcels with individual Lalpurja certificates and zero boundary discrepancies",
+      "Standardized 22ft to 30ft asphalt roads across all new projects with integrated subterranean storm drainage and street solar lighting",
+      "Partnered with leading commercial banks (Nabil, Global IME, NIC Asia) to facilitate seamless 70% home and land financing for verified buyers",
+      "Introduced digital total station cadastral mapping and GPS boundary pinning for every customer parcel",
+      "Achieved 100% customer satisfaction score across legal title transfers with zero contested court litigation"
+    ],
+    "technologies": ["Cadastral Mapping", "Napi Alignment", "Asphalt Roadwork", "Subterranean Drainage", "Total Station", "Title Clearance", "Malpot Likhat", "Bank Valuation"]
+  },
+  {
+    "id": "mer-phase-2",
+    "number": "02",
+    "role": "Regional Expansion: Pokhara, Chitwan & Emerging Corridors",
+    "company": "Mt. Everest Real-Estate Regional Division",
+    "location": "Pokhara, Chitwan & Trishuli Belt",
+    "period": "2017 - 2022",
+    "type": "Regional Projects",
+    "description": "Spearheaded planned land acquisitions and eco-resort agricultural land developments across high-growth touristic and industrial belts.",
+    "highlights": [
+      "Acquired and plotted 120+ Bighas of fertile agricultural and resort land parcels in Pokhara Pame and Chitwan Kurintar",
+      "Established standard environmental setback buffers along natural streams and hillsides preserving green topography",
+      "Facilitated land acquisition and access road engineering for 4 boutique hospitality resorts in Gandaki Province",
+      "Organized community land pooling initiatives ensuring wide public right-of-ways and permanent local goodwill",
+      "Maintained 100% transparent pricing with direct landowner contracts and zero hidden middleman commissions"
+    ],
+    "technologies": ["Land Pooling", "Agro-Tourism Zoning", "Bigha-Katha Subdivisions", "Highway Right-of-Way", "Soil Stabilization", "Title Verification"]
+  },
+  {
+    "id": "mer-phase-1",
+    "number": "03",
+    "role": "Foundational Land Consultancy & Cadastral Advisory",
+    "company": "Mt. Everest Real-Estate Advisory",
+    "location": "Kathmandu, Nepal",
+    "period": "2012 - 2017",
+    "type": "Advisory & Consultancy",
+    "description": "Established as a specialized property advisory and cadastral verification consultancy solving legacy title disputes and land documentation in Kathmandu Valley.",
+    "highlights": [
+      "Conducted legal title due diligence on over 1,200 property transactions for individual families, diaspora Nepalis (NRNs), and corporate institutions",
+      "Pioneered structured title investigation protocols verifying 3-generation lineage records (Pustawari) and court non-encumbrance",
+      "Assisted municipal town development committees in neighborhood access road planning and plotting demarcations",
+      "Built long-standing relationships with registered surveyors, senior legal advocates, and revenue authorities"
+    ],
+    "technologies": ["Land Revenue Records", "Malpot Archival Research", "Boundary Dispute Resolution", "Land Valuation", "Legal Due Diligence", "Client Advisory"]
+  }
+]

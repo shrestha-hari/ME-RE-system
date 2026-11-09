@@ -1,0 +1,62 @@
+[
+  {
+    "id": "gallery-01",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Panoramic green land plotting in Godawari foothills"
+  },
+  {
+    "id": "gallery-02",
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Master-planned residential colony with wide paved access"
+  },
+  {
+    "id": "gallery-03",
+    "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Tranquil pine forest surroundings at Chandragiri plots"
+  },
+  {
+    "id": "gallery-04",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Spectacular lake and mountain view land in Pokhara"
+  },
+  {
+    "id": "gallery-05",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+    "alt": "High-visibility commercial highway parcels in Bhaktapur"
+  },
+  {
+    "id": "gallery-06",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Fertile riverfront agricultural plots in Kurintar belt"
+  },
+  {
+    "id": "gallery-07",
+    "image": "https://images.unsplash.com/photo-1524813686514-a57563d77d61?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Total station cadastral land survey and boundary demarcation"
+  },
+  {
+    "id": "gallery-08",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Modern villa construction on Mt. Everest Real-Estate plotted land"
+  },
+  {
+    "id": "gallery-09",
+    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Lush green natural forest boundary preserved along colony edge"
+  },
+  {
+    "id": "gallery-10",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Clear blue mountain skies overlooking sunny hillside plots"
+  },
+  {
+    "id": "gallery-11",
+    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Snow-capped Himalayan peaks framing our plotted developments"
+  },
+  {
+    "id": "gallery-12",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop",
+    "alt": "Serene valley landscape of Kathmandu outskirts"
+  }
+]

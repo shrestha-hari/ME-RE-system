@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96x96.png" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <link rel="manifest" href="./site.webmanifest" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#166534" />
+  <title>Mt. Everest Real-Estate | Prime Land Plotting & Properties in Nepal</title>
+  <meta name="description"
+    content="Mt. Everest Real-Estate: Premier land plotting, master-planned residential colonies, commercial highway land, and property investment advisory in Nepal with 100% verified Lalpurja ownership." />
+  <meta name="author" content="Mt. Everest Real-Estate" />
+  <meta name="keywords"
+    content="Mt. Everest Real Estate, Land Plotting Nepal, Land for sale Kathmandu, Plotted colony Godawari, Budhanilkantha land, Nepal land measurement, Lalpurja verification, Buy land Nepal" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://mteverestrealestate.com.np/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mteverestrealestate.com.np/" />
+  <meta property="og:title" content="Mt. Everest Real-Estate | Prime Land Plotting & Properties in Nepal" />
+  <meta property="og:description"
+    content="Premier land development agency in Nepal. Verified residential and commercial land plotting with 20ft+ roads, utilities, and 100% clear Lalpurja ownership." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop" />
+
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:site" content="@everest_realty" />
+  <meta property="twitter:creator" content="@everest_realty" />
+  <meta property="twitter:title" content="Mt. Everest Real-Estate | Prime Land Plotting & Properties in Nepal" />
+  <meta property="twitter:description"
+    content="Premier land development agency in Nepal. Verified residential and commercial land plotting with 20ft+ roads, utilities, and 100% clear Lalpurja ownership." />
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop" />
+
+  <!-- Google Fonts: Manrope (Headings), Inter (Body), JetBrains Mono (Code/Metadata) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Instant Theme Initializer to prevent flash -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('mer_theme');
+        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        var isDark = stored === 'dark' || (!stored && prefersDark);
+        if (isDark) {
+          document.documentElement.classList.add('dark');
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- SPA fallback decode script for static host redirects with graceful error handling -->
+  <script>
+    (function (l) {
+      try {
+        if (l.search && l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+            );
+          } else {
+            l.hash = '#' + decoded;
+          }
+        }
+      } catch (err) {
+        console.warn('[SPA Redirect] Navigation fallback:', err);
+      }
+    }(window.location))
+  </script>
+</head>
+
+<body class="bg-[#FAFAF9] dark:bg-[#090D16] text-[#111827] dark:text-[#F9FAFB] antialiased selection:bg-[#DCFCE7] selection:text-[#166534] dark:selection:bg-[#14532D] dark:selection:text-[#86EFAC] transition-colors duration-200">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
