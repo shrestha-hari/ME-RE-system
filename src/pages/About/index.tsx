@@ -15,7 +15,7 @@ export const AboutPage: React.FC = () => {
     <div className="w-full flex-1 py-10 sm:py-14 bg-[#F8FAFC] dark:bg-[#090D16] transition-colors">
       <Seo
         title="About Us | Mt. Everest Real-Estate"
-        description="Learn about Mt. Everest Real-Estate: Nepal's leading land development agency, our 14+ year history, master-planned plotting standards, and verified Lalpurja commitment."
+        description="Learn about Mt. Everest Real-Estate: reliable land plotting in Lalitpur, Bara, and Chitwan with corporate office at Samakhushi 26, Kathmandu and verified Lalpurja commitment."
         url={`${SITE_CONFIG.url}/about`}
       />
       <Container size="xl">
@@ -103,11 +103,11 @@ export const AboutPage: React.FC = () => {
               <dl className="mt-3.5 pt-3 border-t border-[#E2E8F0] dark:border-[#1F2937] space-y-2.5 text-xs">
                 <div className="flex justify-between items-center">
                   <dt className="text-[#64748B] dark:text-[#94A3B8] font-mono">Headquarters</dt>
-                  <dd className="font-medium text-[#0F172A] dark:text-[#F8FAFC] text-right">New Baneshwor, KTM</dd>
+                  <dd className="font-medium text-[#0F172A] dark:text-[#F8FAFC] text-right">Samakhushi 26, KTM</dd>
                 </div>
                 <div className="flex justify-between items-center">
                   <dt className="text-[#64748B] dark:text-[#94A3B8] font-mono">Hotline</dt>
-                  <dd className="font-mono text-[#0F172A] dark:text-[#F8FAFC]">01-4498221</dd>
+                  <dd className="font-mono text-[#0F172A] dark:text-[#F8FAFC]">9851068067</dd>
                 </div>
                 <div className="flex justify-between items-center">
                   <dt className="text-[#64748B] dark:text-[#94A3B8] font-mono">Status</dt>
@@ -122,7 +122,7 @@ export const AboutPage: React.FC = () => {
               <div className="mt-5 pt-3.5 border-t border-[#E2E8F0] dark:border-[#1F2937]">
                 <Link to="/contact" className="w-full block">
                   <Button variant="primary" fullWidth size="md">
-                    Schedule Free Site Visit
+                    Schedule Site Visit
                   </Button>
                 </Link>
               </div>
@@ -140,7 +140,7 @@ export const AboutPage: React.FC = () => {
               Development Milestones & Track Record
             </h3>
             <p className="text-xs sm:text-sm text-[#334155] dark:text-[#94A3B8] mt-1.5">
-              Our 14-year legacy transforming land across Kathmandu Valley, Pokhara, and the Trishuli corridor into vibrant communities.
+              Our reliable track record securing clearly demarcated land parcels and infrastructure across Lalitpur, Bara, and Chitwan, coordinated from our Samakhushi 26 office.
             </p>
           </div>
           <Timeline items={experienceData} className="w-full" />

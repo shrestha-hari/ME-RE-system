@@ -85,12 +85,12 @@ export class ErrorBoundary extends Component<Props, State> {
             </div>
 
             <div className="mt-6 pt-4 border-t border-[#E2E8F0] dark:border-[#1F2937] flex items-center justify-center gap-4 text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">
-              <a href="mailto:info@mteverestrealestate.com.np" className="text-[#15803D] dark:text-[#4ADE80] hover:underline">
-                Contact Office (01-4498221)
+              <a href="tel:+9779851068067" className="text-[#15803D] dark:text-[#4ADE80] hover:underline">
+                Contact Office (9851068067)
               </a>
               <span>·</span>
-              <a href="mailto:info@mteverestrealestate.com.np" className="text-[#15803D] dark:text-[#4ADE80] hover:underline">
-                Report Technical Issue
+              <a href="mailto:shresthah987@gmail.com" className="text-[#15803D] dark:text-[#4ADE80] hover:underline">
+                Email Support (shresthah987@gmail.com)
               </a>
             </div>
           </Card>

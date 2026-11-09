@@ -52,8 +52,8 @@ export const RouteErrorBoundary: React.FC = () => {
         </div>
 
         <div className="mt-6 pt-4 border-t border-[#E2E8F0] dark:border-[#1F2937] text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">
-          <a href="mailto:info@mteverestrealestate.com.np" className="text-[#15803D] dark:text-[#4ADE80] hover:underline">
-            Support: info@mteverestrealestate.com.np
+          <a href="mailto:shresthah987@gmail.com" className="text-[#15803D] dark:text-[#4ADE80] hover:underline">
+            Support: shresthah987@gmail.com | 9851068067
           </a>
         </div>
       </Card>

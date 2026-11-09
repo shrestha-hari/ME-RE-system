@@ -1,55 +1,53 @@
 [
   {
-    "id": "mer-phase-3",
+    "id": "mer-phase-1",
     "number": "01",
-    "role": "Flagship Colony Developments & Urban Subdivisions",
-    "company": "Mt. Everest Real-Estate Development Wing",
-    "location": "Kathmandu, Lalitpur & Bhaktapur, Nepal",
-    "period": "2022 - Present",
-    "type": "Master Planned Projects",
-    "description": "Leading 8 premier plotted colonies spanning over 75 Ropanis across Kathmandu Valley, delivering high-spec road infrastructure, underground utilities, and 100% verified individual Lalpurja handovers.",
+    "role": "Residential Plotted Colonies in Lalitpur",
+    "company": "Mt. Everest Real-Estate",
+    "location": "Lubhu and Lamatar, Lalitpur",
+    "period": "Current Schemes",
+    "type": "Plotted Residential Projects",
+    "description": "Managing plotted residential schemes across Lubhu and Lamatar in Lalitpur, delivering 20ft motorable roads, electricity connections, and 100% verified Lalpurja ownership.",
     "highlights": [
-      "Completed and handed over 320+ demarcated residential and commercial parcels with individual Lalpurja certificates and zero boundary discrepancies",
-      "Standardized 22ft to 30ft asphalt roads across all new projects with integrated subterranean storm drainage and street solar lighting",
-      "Partnered with leading commercial banks (Nabil, Global IME, NIC Asia) to facilitate seamless 70% home and land financing for verified buyers",
-      "Introduced digital total station cadastral mapping and GPS boundary pinning for every customer parcel",
-      "Achieved 100% customer satisfaction score across legal title transfers with zero contested court litigation"
+      "Handed over demarcated parcels with individual Lalpurja certificates and clear boundary coordinates",
+      "Built 20ft wide motorable access roads with proper gravel and drainage layout",
+      "Coordination with land revenue offices (Malpot) for transparent deed transfers",
+      "Facilitated bank valuation and loan support for residential home builders"
     ],
-    "technologies": ["Cadastral Mapping", "Napi Alignment", "Asphalt Roadwork", "Subterranean Drainage", "Total Station", "Title Clearance", "Malpot Likhat", "Bank Valuation"]
+    "technologies": ["Cadastral Mapping", "Napi Alignment", "Roadwork", "Drainage", "Title Clearance", "Malpot Likhat", "Bank Valuation"]
   },
   {
     "id": "mer-phase-2",
     "number": "02",
-    "role": "Regional Expansion: Pokhara, Chitwan & Emerging Corridors",
-    "company": "Mt. Everest Real-Estate Regional Division",
-    "location": "Pokhara, Chitwan & Trishuli Belt",
-    "period": "2017 - 2022",
-    "type": "Regional Projects",
-    "description": "Spearheaded planned land acquisitions and eco-resort agricultural land developments across high-growth touristic and industrial belts.",
+    "role": "Commercial and Highway Plots in Bara",
+    "company": "Mt. Everest Real-Estate",
+    "location": "Kolhabi, Bara District",
+    "period": "Active Projects",
+    "type": "Regional Commercial Land",
+    "description": "Developing strategic highway frontage and market land parcels in Kolhabi, Bara with commercial and residential access.",
     "highlights": [
-      "Acquired and plotted 120+ Bighas of fertile agricultural and resort land parcels in Pokhara Pame and Chitwan Kurintar",
-      "Established standard environmental setback buffers along natural streams and hillsides preserving green topography",
-      "Facilitated land acquisition and access road engineering for 4 boutique hospitality resorts in Gandaki Province",
-      "Organized community land pooling initiatives ensuring wide public right-of-ways and permanent local goodwill",
-      "Maintained 100% transparent pricing with direct landowner contracts and zero hidden middleman commissions"
+      "Secured commercial frontage plots directly along wide 30ft transport corridors",
+      "Subdivided in clear Katha and Dhur measurements for businesses and homeowners",
+      "100% litigation-free title verification with local Land Revenue authorities",
+      "Direct landowner negotiations ensuring fair and transparent market pricing"
     ],
-    "technologies": ["Land Pooling", "Agro-Tourism Zoning", "Bigha-Katha Subdivisions", "Highway Right-of-Way", "Soil Stabilization", "Title Verification"]
+    "technologies": ["Highway Access", "Katha-Dhur Division", "Title Search", "Commercial Zoning", "Boundary Survey"]
   },
   {
-    "id": "mer-phase-1",
+    "id": "mer-phase-3",
     "number": "03",
-    "role": "Foundational Land Consultancy & Cadastral Advisory",
-    "company": "Mt. Everest Real-Estate Advisory",
-    "location": "Kathmandu, Nepal",
-    "period": "2012 - 2017",
-    "type": "Advisory & Consultancy",
-    "description": "Established as a specialized property advisory and cadastral verification consultancy solving legacy title disputes and land documentation in Kathmandu Valley.",
+    "role": "Agricultural and Resort Land in Chitwan",
+    "company": "Mt. Everest Real-Estate",
+    "location": "Madi and Meghauli, Chitwan",
+    "period": "Regional Land Portfolio",
+    "type": "Agro and Resort Properties",
+    "description": "Consultation and sale of fertile farmland in Madi and scenic resort parcels in Meghauli, Chitwan.",
     "highlights": [
-      "Conducted legal title due diligence on over 1,200 property transactions for individual families, diaspora Nepalis (NRNs), and corporate institutions",
-      "Pioneered structured title investigation protocols verifying 3-generation lineage records (Pustawari) and court non-encumbrance",
-      "Assisted municipal town development committees in neighborhood access road planning and plotting demarcations",
-      "Built long-standing relationships with registered surveyors, senior legal advocates, and revenue authorities"
+      "Subdivision of fertile agricultural acreage suitable for horticulture and farming in Madi",
+      "Resort and hospitality land advisory along Rapti river scenic corridors in Meghauli",
+      "Cadastral field survey and boundary pegging with certified surveyors",
+      "Assistance for overseas Nepalis and local investors in genuine land documentation"
     ],
-    "technologies": ["Land Revenue Records", "Malpot Archival Research", "Boundary Dispute Resolution", "Land Valuation", "Legal Due Diligence", "Client Advisory"]
+    "technologies": ["Agro Land Advisory", "Cadastral Verification", "Bigha Measurement", "Riverfront Setbacks", "Legal Due Diligence"]
   }
 ]

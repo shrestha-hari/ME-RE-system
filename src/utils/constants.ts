@@ -4,13 +4,15 @@ import { getAssetUrl } from './routing'
 export const SITE_CONFIG = {
   name: 'Mt. Everest Real-Estate',
   shortName: 'Mt. Everest Real-Estate',
-  title: 'Mt. Everest Real-Estate | Premier Land Plotting & Properties in Nepal',
+  title: 'Mt. Everest Real-Estate | Land Plotting & Properties in Nepal',
   description:
-    'Premier land development, verified land plotting, residential colonies, and property investment advisory across Kathmandu Valley and Nepal with 100% clear Lalpurja ownership.',
-  author: 'Mt. Everest Real-Estate',
+    'Reliable land plotting, residential plots, and agricultural land in Lalitpur (Lubhu, Lamatar), Bara (Kolhabi), and Chitwan (Madi, Meghauli), with corporate office at Samakhushi 26, Kathmandu and verified Lalpurja ownership.',
+  author: 'Hari Bahadur Shrestha',
   url: 'https://shrestha-hari.github.io/ME-RE-system',
-  email: 'info@mteverestrealestate.com.np',
-  phone: '(+977) 01-4498221 / 9851082210',
+  email: 'shresthah987@gmail.com',
+  secondaryEmail: 'haribahadurshrestha566@gmail.com',
+  phone: '9851068067 / 9861080943',
+  location: 'Samakhushi 26, Kathmandu, Nepal',
   resumeUrl: getAssetUrl('brochure.pdf'),
   avatar: getAssetUrl('images/background.webp'),
 }
@@ -27,33 +29,43 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
+    platform: 'youtube',
+    label: 'YouTube',
+    url: 'https://www.youtube.com/@HariShrestha4',
+  },
+  {
     platform: 'facebook',
     label: 'Facebook',
-    url: 'https://facebook.com/mteverestrealestate',
+    url: 'https://www.facebook.com/hari.shrestha.65666',
   },
   {
-    platform: 'linkedin',
-    label: 'LinkedIn',
-    url: 'https://linkedin.com/company/mteverestrealestate',
+    platform: 'tiktok',
+    label: 'TikTok',
+    url: 'https://www.tiktok.com/@shrestha_h111',
   },
   {
-    platform: 'twitter',
-    label: 'Twitter / X',
-    url: 'https://x.com/everest_realty',
+    platform: 'instagram',
+    label: 'Instagram',
+    url: 'https://www.instagram.com/shrestha366/',
+  },
+  {
+    platform: 'github',
+    label: 'GitHub',
+    url: 'https://github.com/shrestha-hari',
   },
   {
     platform: 'whatsapp',
     label: 'WhatsApp',
-    url: 'https://wa.me/9779851082210',
+    url: 'https://wa.me/9779851068067',
   },
   {
     platform: 'email',
     label: 'Email',
-    url: 'mailto:info@mteverestrealestate.com.np',
+    url: 'mailto:shresthah987@gmail.com',
   },
   {
     platform: 'phone',
-    label: 'Call Office',
-    url: 'tel:+977014498221',
+    label: 'Call Us',
+    url: 'tel:+9779851068067',
   },
 ]

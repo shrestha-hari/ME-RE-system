@@ -30,11 +30,11 @@ const ROUTES = [
     dir: 'about',
     title: 'About Us | Mt. Everest Real-Estate',
     description:
-      'Company profile, 14+ years land development history, cadastral accuracy, and verified Lalpurja commitment of Mt. Everest Real-Estate.',
+      'Company profile, reliable land plotting, cadastral accuracy, and verified Lalpurja commitment of Mt. Everest Real-Estate in Lalitpur, Bara, and Chitwan, with corporate office at Samakhushi 26, Kathmandu.',
     priority: '0.8',
     changefreq: 'monthly',
-    heading: 'Building communities with integrity & planned development',
-    subheading: 'Government authorized land development agency with over 650+ plotted parcels delivered.',
+    heading: 'Building communities with integrity and planned development',
+    subheading: 'Verified plotted parcels in Lalitpur (Lubhu, Lamatar), Bara (Kolhabi), and Chitwan (Madi, Meghauli), with corporate office at Samakhushi 26, Kathmandu.',
   },
   {
     path: '/projects',
@@ -74,11 +74,11 @@ const ROUTES = [
     dir: 'contact',
     title: 'Contact & Site Visit Booking | Mt. Everest Real-Estate',
     description:
-      'Book a free site inspection or consult our land advisors for plotted residential, commercial, or agricultural land in Nepal.',
+      'Schedule a site inspection or consult our land advisors for plotted residential, commercial, or agricultural land in Nepal.',
     priority: '0.7',
     changefreq: 'monthly',
-    heading: 'Schedule your free site inspection or speak to a land advisor',
-    subheading: 'Direct consultation, weekly Saturday site visit vans, and corporate office in New Baneshwor, Kathmandu.',
+    heading: 'Schedule your property site inspection or speak to our team',
+    subheading: 'Direct consultation, verified plot inspection, and corporate office in Samakhushi 26, Kathmandu.',
   },
   {
     path: '/utilities',

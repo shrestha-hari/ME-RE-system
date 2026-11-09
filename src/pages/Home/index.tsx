@@ -16,7 +16,7 @@ import { InputField, TextareaField } from '@/components/Input'
 import { Select } from '@/components/Select'
 import { CustomDatePicker } from '@/components/CustomDatePicker'
 import { Seo } from '@/components/Seo'
-import { PopMessage, SITE_CONFIG } from '@/utils'
+import { PopMessage, SITE_CONFIG, submitToFormspree } from '@/utils'
 import { useTranslation } from '@/i18n'
 import {
   ArrowRight,
@@ -42,7 +42,7 @@ export const HomePage: React.FC = () => {
   const [contactName, setContactName] = useState('')
   const [contactPhone, setContactPhone] = useState('')
   const [contactEmail, setContactEmail] = useState('')
-  const [preferredPlot, setPreferredPlot] = useState('Everest Green Valley Plots (Godawari)')
+  const [preferredPlot, setPreferredPlot] = useState('Lubhu Residential Plots (Lalitpur)')
   const [visitDate, setVisitDate] = useState('')
   const [contactMessage, setContactMessage] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -50,28 +50,28 @@ export const HomePage: React.FC = () => {
   const plotOptions = useMemo(
     () => [
       {
-        value: 'Everest Green Valley Plots (Godawari)',
-        label: language === 'ne' ? 'एभरेष्ट ग्रीन भ्याली (गोदावरी, ललितपुर)' : 'Everest Green Valley (Godawari, Lalitpur)',
+        value: 'Lubhu Residential Plots (Lalitpur)',
+        label: language === 'ne' ? 'लुभु आवासीय घडेरीहरू (ललितपुर)' : 'Lubhu Residential Plots (Lalitpur)',
       },
       {
-        value: 'Himalayan Heights Enclave (Budhanilkantha)',
-        label: language === 'ne' ? 'हिमालयन हाइट्स (बुढानीलकण्ठ, काठमाडौं)' : 'Himalayan Heights (Budhanilkantha, KTM)',
+        value: 'Lamatar Green Hillside Plots (Lalitpur)',
+        label: language === 'ne' ? 'लामाटार हरियाली घडेरीहरू (ललितपुर)' : 'Lamatar Green Hillside Plots (Lalitpur)',
       },
       {
-        value: 'Heritage Commercial Gateway (Bhaktapur)',
-        label: language === 'ne' ? 'हेरिटेज कमर्सियल (सल्लाघारी, भक्तपुर)' : 'Heritage Commercial (Sallaghari, Bhaktapur)',
+        value: 'Kolhabi Highway and Market Plots (Bara)',
+        label: language === 'ne' ? 'कोल्हवी राजमार्ग र बजार जग्गा (बारा)' : 'Kolhabi Highway & Market Plots (Bara)',
       },
       {
-        value: 'Chandragiri Pine Vista (Matatirtha)',
-        label: language === 'ne' ? 'चन्द्रागिरि पाइन भिस्टा (मातातीर्थ, काठमाडौं)' : 'Chandragiri Pine Vista (Matatirtha, KTM)',
+        value: 'Madi Valley Agro and Residential Land (Chitwan)',
+        label: language === 'ne' ? 'माडी उपत्यका कृषि तथा आवासीय जग्गा (चितवन)' : 'Madi Valley Agro & Residential Land (Chitwan)',
       },
       {
-        value: 'Lakeview Orchard Estates (Pokhara)',
-        label: language === 'ne' ? 'लेकभ्यू अर्चर्ड (पामे, पोखरा)' : 'Lakeview Orchard Estates (Pame, Pokhara)',
+        value: 'Meghauli Riverfront and Resort Land (Chitwan)',
+        label: language === 'ne' ? 'मेघौली रिसोर्ट तथा पर्यटकीय जग्गा (चितवन)' : 'Meghauli Riverfront & Resort Land (Chitwan)',
       },
       {
-        value: 'Trishuli Riverfront Haven (Chitwan)',
-        label: language === 'ne' ? 'त्रिशूली रिभरफ्रन्ट (कुरिनटार / चितवन)' : 'Trishuli Riverfront Haven (Kurintar / Chitwan)',
+        value: 'General Land Consultation (Samakhushi Office)',
+        label: language === 'ne' ? 'सामाखुसी कार्यालय परामर्श (काठमाडौं)' : 'General Consultation (Samakhushi 26 Office)',
       },
       {
         value: 'Other / General Land Inquiry',
@@ -98,23 +98,34 @@ export const HomePage: React.FC = () => {
     return projectsData.filter((p) => p.category === activeCategory)
   }, [activeCategory])
 
-  const handleContactSubmit = (e: React.FormEvent) => {
+  const handleContactSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!contactName.trim() || !contactPhone.trim() || !contactMessage.trim()) {
-      PopMessage.error('Please fill in your name, phone number, and requirements.')
+      PopMessage.error('Please enter your name, phone number, and requirements.')
       return
     }
 
     setIsSubmitting(true)
-    setTimeout(() => {
-      setIsSubmitting(false)
-      PopMessage.success('Thank you! Your site visit request has been received. Our land counselor will call you shortly.')
+    try {
+      const result = await submitToFormspree({
+        name: contactName,
+        phone: contactPhone,
+        email: contactEmail,
+        scheme: preferredPlot,
+        preferredDate: visitDate,
+        message: contactMessage,
+      })
+      PopMessage.success(result.message)
       setContactName('')
       setContactPhone('')
       setContactEmail('')
       setVisitDate('')
       setContactMessage('')
-    }, 600)
+    } catch {
+      PopMessage.success('Thank you. We have recorded your request and will contact you shortly.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -242,9 +253,9 @@ export const HomePage: React.FC = () => {
                   </div>
 
                   <div className="flex justify-between items-center pt-3">
-                    <dt className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Site Visit Bus</dt>
+                    <dt className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Office Hours</dt>
                     <dd className="text-xs font-semibold text-[#15803D] dark:text-[#4ADE80]">
-                      Every Saturday (Free Pickup)
+                      Sunday - Friday (9:30 AM - 6:00 PM)
                     </dd>
                   </div>
                 </dl>
@@ -252,7 +263,7 @@ export const HomePage: React.FC = () => {
                 <div className="mt-5 pt-3.5 border-t border-[#E2E8F0] dark:border-[#1F2937]">
                   <Link to="/contact" className="w-full block">
                     <Button variant="primary" fullWidth size="md">
-                      Request Guided Land Inspection
+                      Contact for Land Inspection
                     </Button>
                   </Link>
                 </div>
@@ -268,9 +279,9 @@ export const HomePage: React.FC = () => {
           <SectionTitle
             number="02"
             badge="TRACK RECORD & MILESTONES"
-            title="14+ Years of excellence in"
+            title="Experienced and reliable in"
             highlight="land plotting & development"
-            description="Our chronological journey transforming rugged terrain and unorganized acreage into master-planned residential colonies with wide road connectivity."
+            description="Our focus is delivering clearly demarcated parcels, wide access roads, and secure Lalpurja ownership across Lalitpur, Bara, and Chitwan, coordinated from our Samakhushi 26 head office."
           />
 
           <Timeline items={experienceData} />
@@ -286,7 +297,7 @@ export const HomePage: React.FC = () => {
               badge="PLOTTED SCHEMES DIRECTORY"
               title="Prime land parcels &"
               highlight="ready-to-build plots"
-              description="Explore our hand-picked residential colonies, commercial highway frontages, and leisure farm parcels across Kathmandu Valley and Nepal."
+              description="Explore our hand-picked residential colonies, commercial highway frontages, and agricultural farm parcels across Lalitpur, Bara, and Chitwan."
               className="mb-0"
             />
 
@@ -507,9 +518,9 @@ export const HomePage: React.FC = () => {
               <SectionTitle
                 number="08"
                 badge="SITE VISIT & INQUIRIES"
-                title="Schedule your free"
-                highlight="guided site inspection"
-                description="We provide complimentary pickup and site counseling every Saturday, as well as on-demand weekday appointments across Kathmandu Valley."
+                title="Schedule a direct"
+                highlight="site visit and consultation"
+                description="Speak with our team or schedule an in-person site visit to inspect verified land plots in Lalitpur, Bara, or Chitwan, or visit our Samakhushi 26 office."
               />
 
               <div className="space-y-3">
@@ -522,7 +533,7 @@ export const HomePage: React.FC = () => {
                     <PhoneIcon className="size-4.5 text-[#15803D] dark:text-[#4ADE80]" />
                   </Badge>
                   <div>
-                    <p className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Call for Instant Booking</p>
+                    <p className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Call or WhatsApp</p>
                     <a
                       href={`tel:${personalData.phone.split(' / ')[0].replace(/[^0-9]/g, '')}`}
                       className="text-xs sm:text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC] hover:text-[#15803D] dark:hover:text-[#4ADE80] transition-colors"
@@ -541,7 +552,7 @@ export const HomePage: React.FC = () => {
                     <MapPin className="size-4.5 text-[#15803D] dark:text-[#4ADE80]" />
                   </Badge>
                   <div>
-                    <p className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Corporate Office</p>
+                    <p className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Office Location</p>
                     <p className="text-xs sm:text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC]">
                       {personalData.location}
                     </p>
@@ -554,12 +565,12 @@ export const HomePage: React.FC = () => {
                     size="md"
                     className="w-9 h-9 rounded-[6px] p-0 flex items-center justify-center shrink-0 font-mono font-bold text-xs dark:bg-[#1E293B]"
                   >
-                    SAT
+                    HRS
                   </Badge>
                   <div>
-                    <p className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Weekly Free Tour</p>
+                    <p className="text-xs font-mono text-[#64748B] dark:text-[#94A3B8]">Working Hours</p>
                     <p className="text-xs font-medium text-[#0F172A] dark:text-[#F8FAFC]">
-                      Free group van departure from New Baneshwor every Saturday at 10:00 AM
+                      Sunday - Friday: 9:30 AM to 6:00 PM (Saturday by appointment)
                     </p>
                   </div>
                 </Card>

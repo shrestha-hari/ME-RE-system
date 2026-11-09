@@ -63,23 +63,23 @@ export const UtilitiesPage: React.FC = () => {
         value: 'metropolitan',
         label:
           language === 'ne'
-            ? 'महानगरपालिका (काठमाडौं, ललितपुर) — ५.०%'
-            : 'Metropolitan City (Kathmandu, Lalitpur) — 5.0%',
+            ? 'महानगरपालिका (काठमाडौं, ललितपुर): ५.०%'
+            : 'Metropolitan City (Kathmandu, Lalitpur): 5.0%',
       },
       {
         value: 'sub_metropolitan',
         label:
           language === 'ne'
-            ? 'उप-महानगरपालिका (भक्तपुर, पोखरा, चितवन) — ४.५%'
-            : 'Sub-Metropolitan (Bhaktapur, Pokhara, Chitwan) — 4.5%',
+            ? 'उप-महानगरपालिका (भक्तपुर, चितवन): ४.५%'
+            : 'Sub-Metropolitan (Bhaktapur, Chitwan): 4.5%',
       },
       {
         value: 'municipality',
-        label: language === 'ne' ? 'नगरपालिका — ४.०%' : 'Municipality (Nagarpalika) — 4.0%',
+        label: language === 'ne' ? 'नगरपालिका: ४.०%' : 'Municipality (Nagarpalika): 4.0%',
       },
       {
         value: 'rural',
-        label: language === 'ne' ? 'गाउँपालिका — २.०%' : 'Rural Municipality (Gaunpalika) — 2.0%',
+        label: language === 'ne' ? 'गाउँपालिका: २.०%' : 'Rural Municipality (Gaunpalika): 2.0%',
       },
     ],
     [language]

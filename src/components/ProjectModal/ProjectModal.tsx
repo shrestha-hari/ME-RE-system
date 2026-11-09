@@ -3,6 +3,7 @@ import { Modal } from '@/components/Modal'
 import { Badge } from '@/components/Badge'
 import { Button } from '@/components/Button'
 import { MapPin, ArrowRight, CheckCircle2 } from '@/assets/icons'
+import { getAssetUrl } from '@/utils'
 import type { ProjectItem } from '@/components/ProjectCard'
 
 export interface ProjectModalProps {
@@ -36,7 +37,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onC
         {project.image && (
           <div className="relative w-full h-44 sm:h-56 overflow-hidden rounded-[8px] bg-[#F5F7F6] dark:bg-[#1E293B] border border-[#E5E7EB] dark:border-[#374151]">
             <img
-              src={project.image}
+              src={getAssetUrl(project.image)}
               alt={project.title}
               className="w-full h-full object-cover"
               onError={(e) => {

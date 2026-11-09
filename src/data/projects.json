@@ -1,176 +1,176 @@
 [
   {
-    "id": "everest-green-valley",
+    "id": "lubhu-residential-plots",
     "number": "01",
-    "title": "Everest Green Valley Plotted Colony",
+    "title": "Lubhu Residential Plotted Colony",
     "category": "Residential Land Plotting",
-    "tagline": "Master-planned residential colony with 22ft blacktopped road and scenic Himalayan views in Godawari.",
-    "description": "Premium residential plotting project spread over 32 Ropanis in scenic Godawari, Lalitpur. Designed with 22ft wide blacktopped roads, underground electricity cabling, dedicated water supply, and direct mountain view.",
-    "overview": "Everest Green Valley represents our flagship eco-residential plotted development in the tranquil foothills of Godawari. Every individual parcel has been demarcated with cadastral precision, complete with government-approved plotting permits, storm drainage, and ready-to-build soil stability.",
+    "tagline": "Planned residential plots with 20ft road access and peaceful surroundings in Lubhu, Lalitpur.",
+    "description": "Attractive residential land plotting located in Lubhu, Lalitpur. Parcels are cleanly separated with 20ft motorable road access, electricity connection, and direct mountain view.",
+    "overview": "Lubhu is one of the fastest-growing residential zones in Lalitpur. This scheme offers ready-to-build land parcels with clear Lalpurja ownership and verified cadastral boundaries.",
     "pipeline": [
-      "22ft wide internal asphalt road with interlocking paver pedestrian walkways",
-      "Dedicated deep-boring water treatment plant and underground electric lines",
-      "Demarcated cadastral parcels ranging from 3 Aana, 4 Aana to 8 Aana",
-      "Immediate Lalpurja ownership transfer and pre-approved home loan facility from tier-1 banks"
+      "20ft wide gravel and pitch internal road",
+      "Immediate Lalpurja ownership transfer at Malpot office",
+      "Standard plot sizes from 3 Aana, 4 Aana to 6 Aana",
+      "Electricity poles and drinking water line connection ready"
     ],
     "metrics": [
-      "Area: 3 Aana to 8 Aana Plots",
-      "Road Access: 22ft Blacktopped",
-      "Facing: East & South-East",
-      "Clearance: 100% Lalpurja Ready"
+      "Area: 3 Aana to 6 Aana",
+      "Road: 20ft Motorable Access",
+      "Facing: East and South-East",
+      "Title: 100% Clear Lalpurja"
     ],
-    "tags": ["Godawari, Lalitpur", "3 to 8 Aana", "22ft Road", "Lalpurja Ready", "Water & Electricity", "Mountain View"],
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
-    "githubUrl": "https://maps.google.com/?q=Godawari,Lalitpur",
+    "tags": ["Lubhu, Lalitpur", "3 to 6 Aana", "20ft Road", "Lalpurja Ready", "Water and Electricity"],
+    "image": "images/projects/lubhu.webp",
+    "githubUrl": "https://maps.google.com/?q=Lubhu,Lalitpur",
     "liveUrl": "#contact",
     "featured": true,
-    "location": "Godawari, Lalitpur",
-    "price": "NPR 32 Lakh / Aana",
+    "location": "Lubhu, Lalitpur",
+    "price": "NPR 22 Lakh / Aana",
     "status": "Booking Open"
   },
   {
-    "id": "himalayan-heights-enclave",
+    "id": "lamatar-hillside-plots",
     "number": "02",
-    "title": "Himalayan Heights Plotted Enclave",
-    "category": "Luxury Villa Plots",
-    "tagline": "Exclusive gated hillside colony in Budhanilkantha with 26ft road and panoramic Kathmandu valley vista.",
-    "description": "Elevated south-facing residential plots in Budhanilkantha with breathtaking views of the Kathmandu valley basin. Secured gated entrance, boundary walls, 26ft wide roads, and continuous mountain water.",
-    "overview": "Himalayan Heights Enclave is an upscale residential subdivision tailored for luxury villas and private residences. Located just 1.5 km above the Budhanilkantha Temple, the project features unhindered sunshine throughout the year, gentle slope topography, and serene nature surroundings.",
+    "title": "Lamatar Green Hillside Plots",
+    "category": "Residential Land Plotting",
+    "tagline": "Scenic residential plots with clean valley air and 20ft road in Lamatar, Lalitpur.",
+    "description": "Lush hillside residential land in Lamatar, Lalitpur. Suitable for peaceful family residences, farm houses, or long-term land investment with open natural views.",
+    "overview": "Located along the scenic Lakuri Bhanjyang corridor, Lamatar provides tranquil surroundings just minutes away from Lubhu and Gwarko.",
     "pipeline": [
-      "Gated perimeter boundary with 24/7 security booth and automated barrier",
-      "26ft wide main entrance road connecting directly to municipal access road",
-      "South and South-East facing parcels ensuring maximum solar exposure",
-      "Ready-to-build soil bearing capacity certified by geotechnical engineers"
+      "20ft wide motorable access road connecting to main highway",
+      "South-facing gentle slope with full daylight sun exposure",
+      "Plot sizes starting from 3.5 Aana up to 8 Aana",
+      "Clear boundary demarcation with cadastral survey maps"
     ],
     "metrics": [
-      "Area: 4 Aana to 1 Ropani",
-      "Road Access: 26ft Pitch",
-      "Facing: South-East (All-Day Sun)",
-      "Status: 85% Sold Out"
+      "Area: 3.5 Aana to 8 Aana",
+      "Road: 20ft Paved Road",
+      "Facing: South-Facing Sun",
+      "Environment: Clean Valley Air"
     ],
-    "tags": ["Budhanilkantha, KTM", "4 Aana - 1 Ropani", "26ft Road", "Gated Security", "Luxury Villa", "Valley View"],
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
-    "githubUrl": "https://maps.google.com/?q=Budhanilkantha,Kathmandu",
+    "tags": ["Lamatar, Lalitpur", "3.5 to 8 Aana", "20ft Road", "Scenic View", "Peaceful Locality"],
+    "image": "images/projects/lamatar.webp",
+    "githubUrl": "https://maps.google.com/?q=Lamatar,Lalitpur",
     "liveUrl": "#contact",
     "featured": true,
-    "location": "Budhanilkantha, Kathmandu",
-    "price": "NPR 48 Lakh / Aana",
-    "status": "Few Plots Remaining"
-  },
-  {
-    "id": "heritage-valley-commercial",
-    "number": "03",
-    "title": "Heritage Commercial Gateway Plots",
-    "category": "Commercial Land",
-    "tagline": "High-visibility commercial plots directly adjoining the Araniko Highway corridor in Sallaghari.",
-    "description": "Prime commercial land parcels along the Sallaghari commercial belt in Bhaktapur. 32ft direct road frontage, optimal for corporate headquarters, department stores, banking hubs, or hospitals.",
-    "overview": "Strategically positioned at the vibrant intersection of Kathmandu, Lalitpur, and Bhaktapur access routes, Heritage Commercial Gateway offers rare commercial real estate parcels. With high daily vehicular footfall and expansive frontage, this location promises exponential commercial capital appreciation.",
-    "pipeline": [
-      "Direct 32ft multi-lane highway frontage with dedicated deceleration service lane",
-      "High-tension 3-phase industrial power line and municipal drainage connected",
-      "Flexible plot subdivision options from 8 Aana up to 2.5 Ropani blocks",
-      "Commercial zoning clearance for multi-storey business complexes"
-    ],
-    "metrics": [
-      "Area: 8 Aana to 2.5 Ropani",
-      "Road Access: 32ft Highway Frontage",
-      "Zoning: Commercial / Mix-Use",
-      "Clearance: Zero Encumbrance"
-    ],
-    "tags": ["Sallaghari, Bhaktapur", "Commercial Frontage", "32ft Road", "High Footfall", "3-Phase Power", "Immediate Transfer"],
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
-    "githubUrl": "https://maps.google.com/?q=Sallaghari,Bhaktapur",
-    "liveUrl": "#contact",
-    "featured": true,
-    "location": "Sallaghari, Bhaktapur",
-    "price": "NPR 65 Lakh / Aana",
-    "status": "Prime Commercial"
-  },
-  {
-    "id": "lakeview-orchard-estates",
-    "number": "04",
-    "title": "Lakeview Orchard Resort & Farm Plots",
-    "category": "Resort & Agro Land",
-    "tagline": "Expansive scenic plots in Pame, Pokhara overlooking Phewa Lake and the Machhapuchhre range.",
-    "description": "Sprawling leisure and resort plots situated in picturesque Pame, Pokhara. Ideal for luxury boutique resorts, organic farm retreats, or private holiday villas with panoramic lake views.",
-    "overview": "Positioned just minutes from Pokhara's lakeside leisure strip yet immersed in pristine nature, Lakeview Orchard Estates offers land parcels ranging from 1 Ropani to 5 Ropani. Gentle hillside topography, abundant natural spring water, and direct road connectivity make this an unmatched lifestyle investment.",
-    "pipeline": [
-      "Direct motorable 20ft road reaching each private parcel boundary",
-      "Unobstructed panoramic view of Phewa Lake and Fishtail (Machhapuchhre) peak",
-      "Natural spring water source and grid electricity connection available",
-      "Ideal micro-climate for horticulture, organic farming, or eco-resort development"
-    ],
-    "metrics": [
-      "Area: 1 Ropani to 5 Ropani",
-      "Road Access: 20ft Motorable",
-      "View: Lake & Annapurna Range",
-      "Potential: Eco-Resort / Farm"
-    ],
-    "tags": ["Pame, Pokhara", "1 to 5 Ropani", "Lake View", "Resort Potential", "Motorable Road", "Clean Title"],
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
-    "githubUrl": "https://maps.google.com/?q=Pame,Pokhara",
-    "liveUrl": "#contact",
-    "featured": true,
-    "location": "Pame, Pokhara",
+    "location": "Lamatar, Lalitpur",
     "price": "NPR 18 Lakh / Aana",
-    "status": "Limited Parcels"
+    "status": "Available Now"
   },
   {
-    "id": "trishuli-riverfront-haven",
-    "number": "05",
-    "title": "Trishuli Riverfront Farm & Villa Plots",
-    "category": "Resort & Agro Land",
-    "tagline": "Fertile riverfront parcels in Kurintar, Chitwan belt with scenic river access and organic soil.",
-    "description": "Large-area agricultural and weekend retreat plots along the scenic Trishuli river corridor. Perfect for weekend villas, fruit orchards, resort hospitality, or long-term land banking.",
-    "overview": "Escape the city dust with lush riverfront land in the warm, fertile Kurintar belt. Each parcel enjoys fertile alluvial soil, private river pathway access, and year-round vehicular accessibility off the Prithvi Highway.",
+    "id": "kolhabi-bara-commercial-residential",
+    "number": "03",
+    "title": "Kolhabi Highway and Market Plots",
+    "category": "Commercial & Residential Land",
+    "tagline": "Prime land parcels with highway connectivity and commercial potential in Kolhabi, Bara.",
+    "description": "High-value commercial and residential plots in Kolhabi municipality, Bara. Frontage directly accessible from main transport routes with wide blacktop road.",
+    "overview": "Kolhabi in Bara district connects major commercial corridors in the Terai region. These plots are optimal for commercial ventures, residential buildings, or grain storage warehouses.",
     "pipeline": [
-      "Subdivided in convenient Katha and Bigha blocks for agricultural or resort ventures",
-      "Gentle gradient down to river embankment with robust flood-protection setback",
-      "Accessible via 24ft graded all-weather gravel road from highway",
-      "Complete cadastral separation and individual Lalpurja certificate"
+      "30ft wide highway and market road frontage",
+      "Commercial and residential mix-use zoning potential",
+      "Subdivision in Katha and Dhur measurements",
+      "Clean title with zero court litigation"
+    ],
+    "metrics": [
+      "Area: 10 Dhur to 2 Katha",
+      "Road: 30ft Blacktop Frontage",
+      "Zoning: Commercial / Residential",
+      "Clearance: 100% Lalpurja Ready"
+    ],
+    "tags": ["Kolhabi, Bara", "10 Dhur - 2 Katha", "30ft Road", "Commercial Frontage", "Highway Access"],
+    "image": "images/projects/kolhabi.webp",
+    "githubUrl": "https://maps.google.com/?q=Kolhabi,Bara",
+    "liveUrl": "#contact",
+    "featured": true,
+    "location": "Kolhabi, Bara",
+    "price": "NPR 8 Lakh / Katha",
+    "status": "Prime Location"
+  },
+  {
+    "id": "madi-chitwan-agro-residential",
+    "number": "04",
+    "title": "Madi Valley Residential and Farm Land",
+    "category": "Agricultural & Residential Land",
+    "tagline": "Fertile agro-farm land and residential plots in scenic Madi Valley, Chitwan.",
+    "description": "Large-area agricultural parcels and residential land in Madi, Chitwan. Fertile soil, irrigation availability, and peaceful community living near Chitwan National Park buffer zone.",
+    "overview": "Madi offers clean, open terrain surrounded by green hills. Excellent for organic farming, fruit orchards, resort hospitality, or family homesteads.",
+    "pipeline": [
+      "Motorable 24ft gravel road connecting to Madi main road",
+      "Alluvial soil ideal for horticulture and crops",
+      "Subdivided in convenient Katha and Bigha sizes",
+      "Official cadastral demarcation and direct registration"
     ],
     "metrics": [
       "Area: 10 Katha to 2 Bigha",
-      "Road Access: 24ft Graded Road",
-      "Proximity: 2 hrs from Kathmandu",
+      "Road: 24ft Graded Road",
+      "Soil: Fertile Agricultural Soil",
       "Status: Immediate Handover"
     ],
-    "tags": ["Kurintar, Chitwan", "10 Katha - 2 Bigha", "Riverfront", "Organic Soil", "Resort Hub", "Investment"],
-    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop",
-    "githubUrl": "https://maps.google.com/?q=Kurintar,Nepal",
+    "tags": ["Madi, Chitwan", "10 Katha - 2 Bigha", "Fertile Soil", "Agro Farming", "Peaceful Living"],
+    "image": "images/projects/madi.webp",
+    "githubUrl": "https://maps.google.com/?q=Madi,Chitwan",
     "liveUrl": "#contact",
     "featured": false,
-    "location": "Kurintar, Chitwan Belt",
-    "price": "NPR 8.5 Lakh / Katha",
-    "status": "Ready for Handover"
+    "location": "Madi, Chitwan",
+    "price": "NPR 6.5 Lakh / Katha",
+    "status": "Plots Available"
   },
   {
-    "id": "chandragiri-pine-vista",
-    "number": "06",
-    "title": "Chandragiri Pine Vista Residential Plots",
-    "category": "Residential Land Plotting",
-    "tagline": "Crisp mountain air, peaceful pine forest surroundings, and 20ft paved road in Matatirtha.",
-    "description": "Serene residential plots in Matatirtha, Chandragiri with fresh mountain breeze and gentle slope. Designed for families desiring healthy, noise-free living just 25 minutes from Kalanki.",
-    "overview": "Chandragiri Pine Vista offers the perfect balance of proximity to Kathmandu city and the refreshing atmosphere of pine forests. Planned with 20ft concrete paved roads, drainage lines, and pre-allocated municipal electricity poles.",
+    "id": "meghauli-chitwan-resort-land",
+    "number": "05",
+    "title": "Meghauli Riverfront and Resort Land",
+    "category": "Resort & Farm Land",
+    "tagline": "Prime tourism and hospitality land plots near Rapti river in Meghauli, Chitwan.",
+    "description": "Expansive scenic plots in Meghauli, Chitwan. Renowned for luxury safari resorts, jungle walks, and sunset river views along the Rapti river corridor.",
+    "overview": "Meghauli is a recognized tourist destination in Chitwan. These parcels offer rare opportunities for boutique resorts, private holiday homes, or agro-resort ventures.",
     "pipeline": [
-      "20ft wide reinforced concrete road with covered stormwater drains",
-      "Underground drainage infrastructure connected to main municipal line",
-      "Parcels designed in 3 Aana, 3.5 Aana, and 5 Aana optimal building configurations",
-      "Clear title deed and immediate construction approval permit assistance"
+      "Direct motorable 20ft road connecting to Meghauli airport road",
+      "Scenic proximity to riverbank and natural wildlife habitat",
+      "Electricity and water line access available",
+      "Clear title certificate with verified ownership records"
+    ],
+    "metrics": [
+      "Area: 15 Katha to 3 Bigha",
+      "Road: 20ft Motorable Access",
+      "View: Riverfront and Nature",
+      "Potential: Resort / Holiday Home"
+    ],
+    "tags": ["Meghauli, Chitwan", "15 Katha - 3 Bigha", "Riverfront", "Resort Potential", "Clean Title"],
+    "image": "images/projects/meghauli.webp",
+    "githubUrl": "https://maps.google.com/?q=Meghauli,Chitwan",
+    "liveUrl": "#contact",
+    "featured": false,
+    "location": "Meghauli, Chitwan",
+    "price": "NPR 9.5 Lakh / Katha",
+    "status": "Available Now"
+  },
+  {
+    "id": "lubhu-south-expansion",
+    "number": "06",
+    "title": "Lubhu South Residential Colony Extension",
+    "category": "Residential Land Plotting",
+    "tagline": "Master-planned residential plots with 20ft road access and open valley views in Lubhu, Lalitpur.",
+    "description": "South-facing residential plots in Lubhu, Lalitpur. Ready for immediate home construction with municipal road access, electricity poles, and verified Lalpurja land title.",
+    "overview": "Extension of our premier Lubhu plotted community. Set in a clean, quiet neighborhood close to school zones, transport links, and Gwarko and Patan city connection.",
+    "pipeline": [
+      "20ft wide motorable layout road with standard drainage",
+      "Cadastral demarcation and individual Malpot Lalpurja ready",
+      "Standard family plot sizes from 3 Aana to 5 Aana",
+      "Electricity line and municipal water pipeline connection ready"
     ],
     "metrics": [
       "Area: 3 Aana to 5 Aana",
-      "Road Access: 20ft Concrete Paved",
-      "Drive: 25 mins from Kalanki",
-      "Environment: Pine Woods Breeze"
+      "Road: 20ft Motorable Access",
+      "Facing: South and East",
+      "Clearance: 100% Lalpurja Ready"
     ],
-    "tags": ["Chandragiri, KTM", "3 to 5 Aana", "20ft Road", "Drainage Connected", "Peaceful Colony", "Lalpurja Ready"],
-    "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=1200&auto=format&fit=crop",
-    "githubUrl": "https://maps.google.com/?q=Chandragiri,Kathmandu",
+    "tags": ["Lubhu, Lalitpur", "3 Aana - 5 Aana", "20ft Road", "Plotted Colony", "Lalpurja Ready"],
+    "image": "images/projects/lubhu_south.webp",
+    "githubUrl": "https://maps.google.com/?q=Lubhu,Lalitpur",
     "liveUrl": "#contact",
-    "featured": false,
-    "location": "Matatirtha, Chandragiri",
-    "price": "NPR 28 Lakh / Aana",
-    "status": "Phase II Launch"
+    "featured": true,
+    "location": "Lubhu, Lalitpur",
+    "price": "NPR 21.5 Lakh / Aana",
+    "status": "Booking Open"
   }
 ]

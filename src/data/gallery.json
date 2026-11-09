@@ -1,62 +1,62 @@
 [
   {
     "id": "gallery-01",
-    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Panoramic green land plotting in Godawari foothills"
+    "image": "images/gallery/1.webp",
+    "alt": "Lamatar scenic green hillside residential plotting in Lalitpur"
   },
   {
     "id": "gallery-02",
-    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Master-planned residential colony with wide paved access"
+    "image": "images/gallery/2.webp",
+    "alt": "Lakuri Bhanjyang - Lamatar road access and natural hillside surroundings"
   },
   {
     "id": "gallery-03",
-    "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Tranquil pine forest surroundings at Chandragiri plots"
+    "image": "images/gallery/3.webp",
+    "alt": "Badikhel valley land parcels and peaceful residential environment"
   },
   {
     "id": "gallery-04",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Spectacular lake and mountain view land in Pokhara"
+    "image": "images/gallery/4.webp",
+    "alt": "Khokana agricultural and planned residential land in Lalitpur"
   },
   {
     "id": "gallery-05",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
-    "alt": "High-visibility commercial highway parcels in Bhaktapur"
+    "image": "images/gallery/5.webp",
+    "alt": "Lele green valley land plotting and open sun-facing plots"
   },
   {
     "id": "gallery-06",
-    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Fertile riverfront agricultural plots in Kurintar belt"
+    "image": "images/gallery/6.webp",
+    "alt": "Meghauli Rapti riverfront corridor and tourism land in Chitwan"
   },
   {
     "id": "gallery-07",
-    "image": "https://images.unsplash.com/photo-1524813686514-a57563d77d61?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Total station cadastral land survey and boundary demarcation"
+    "image": "images/gallery/7.webp",
+    "alt": "Sunset over Chitwan National Park buffer zone and resort parcels"
   },
   {
     "id": "gallery-08",
-    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Modern villa construction on Mt. Everest Real-Estate plotted land"
+    "image": "images/gallery/8.webp",
+    "alt": "Fertile agricultural and highway plots in Terai corridor, Bara"
   },
   {
     "id": "gallery-09",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Lush green natural forest boundary preserved along colony edge"
+    "image": "images/gallery/9.webp",
+    "alt": "Kolhabi Terai rural agricultural land and farmhouse parcels"
   },
   {
     "id": "gallery-10",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Clear blue mountain skies overlooking sunny hillside plots"
+    "image": "images/gallery/10.webp",
+    "alt": "Rural residential development and motorable access road in Bagmati province"
   },
   {
     "id": "gallery-11",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Snow-capped Himalayan peaks framing our plotted developments"
+    "image": "images/gallery/11.webp",
+    "alt": "Fertile green terraces and agricultural land ready for organic farming"
   },
   {
     "id": "gallery-12",
-    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop",
-    "alt": "Serene valley landscape of Kathmandu outskirts"
+    "image": "images/gallery/12.webp",
+    "alt": "Panoramic Kathmandu and Lalitpur valley landscape with fresh hillside air"
   }
 ]

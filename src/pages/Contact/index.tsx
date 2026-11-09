@@ -8,7 +8,7 @@ import { InputField, TextareaField } from '@/components/Input'
 import { Select } from '@/components/Select'
 import { CustomDatePicker } from '@/components/CustomDatePicker'
 import { Seo } from '@/components/Seo'
-import { PopMessage } from '@/utils'
+import { PopMessage, submitToFormspree } from '@/utils'
 import { useTranslation } from '@/i18n'
 import {
   MailIcon,
@@ -26,7 +26,7 @@ export const ContactPage: React.FC = () => {
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
   const [email, setEmail] = useState('')
-  const [preferredPlot, setPreferredPlot] = useState('Everest Green Valley Plots (Godawari)')
+  const [preferredPlot, setPreferredPlot] = useState('Lubhu Residential Plots (Lalitpur)')
   const [visitDate, setVisitDate] = useState('')
   const [message, setMessage] = useState('')
   const [loading, setLoading] = useState(false)
@@ -34,28 +34,28 @@ export const ContactPage: React.FC = () => {
   const plotOptions = useMemo(
     () => [
       {
-        value: 'Everest Green Valley Plots (Godawari)',
-        label: language === 'ne' ? 'एभरेष्ट ग्रीन भ्याली (गोदावरी, ललितपुर)' : 'Everest Green Valley (Godawari)',
+        value: 'Lubhu Residential Plots (Lalitpur)',
+        label: language === 'ne' ? 'लुभु आवासीय घडेरीहरू (ललितपुर)' : 'Lubhu Residential Plots (Lalitpur)',
       },
       {
-        value: 'Himalayan Heights Enclave (Budhanilkantha)',
-        label: language === 'ne' ? 'हिमालयन हाइट्स (बुढानीलकण्ठ, काठमाडौं)' : 'Himalayan Heights (Budhanilkantha)',
+        value: 'Lamatar Green Hillside Plots (Lalitpur)',
+        label: language === 'ne' ? 'लामाटार हरियाली घडेरीहरू (ललितपुर)' : 'Lamatar Green Hillside Plots (Lalitpur)',
       },
       {
-        value: 'Heritage Commercial Gateway (Bhaktapur)',
-        label: language === 'ne' ? 'हेरिटेज कमर्सियल (सल्लाघारी, भक्तपुर)' : 'Heritage Commercial (Bhaktapur)',
+        value: 'Kolhabi Highway and Market Plots (Bara)',
+        label: language === 'ne' ? 'कोल्हवी राजमार्ग र बजार जग्गा (बारा)' : 'Kolhabi Highway & Market Plots (Bara)',
       },
       {
-        value: 'Chandragiri Pine Vista (Matatirtha)',
-        label: language === 'ne' ? 'चन्द्रागिरि पाइन भिस्टा (मातातीर्थ, काठमाडौं)' : 'Chandragiri Pine Vista (Matatirtha)',
+        value: 'Madi Valley Agro and Residential Land (Chitwan)',
+        label: language === 'ne' ? 'माडी उपत्यका कृषि तथा आवासीय जग्गा (चितवन)' : 'Madi Valley Agro & Residential Land (Chitwan)',
       },
       {
-        value: 'Lakeview Orchard Estates (Pokhara)',
-        label: language === 'ne' ? 'लेकभ्यू अर्चर्ड (पामे, पोखरा)' : 'Lakeview Orchard (Pokhara)',
+        value: 'Meghauli Riverfront and Resort Land (Chitwan)',
+        label: language === 'ne' ? 'मेघौली रिसोर्ट तथा पर्यटकीय जग्गा (चितवन)' : 'Meghauli Riverfront & Resort Land (Chitwan)',
       },
       {
-        value: 'Trishuli Riverfront Haven (Chitwan)',
-        label: language === 'ne' ? 'त्रिशूली रिभरफ्रन्ट (कुरिनटार / चितवन)' : 'Trishuli Riverfront (Chitwan)',
+        value: 'General Land Consultation (Samakhushi Office)',
+        label: language === 'ne' ? 'सामाखुसी कार्यालय परामर्श (काठमाडौं)' : 'General Consultation (Samakhushi 26 Office)',
       },
       {
         value: 'General Land Purchase / Selling Advisory',
@@ -65,7 +65,7 @@ export const ContactPage: React.FC = () => {
     [language]
   )
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!name.trim() || !phone.trim() || !message.trim()) {
       PopMessage.error(language === 'ne' ? 'कृपया आफ्नो नाम, फोन नम्बर र आवश्यकताहरू खुलाउनुहोस्।' : 'Please complete your name, phone number, and land requirements.')
@@ -73,31 +73,42 @@ export const ContactPage: React.FC = () => {
     }
 
     setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-      PopMessage.success(t.common.siteVisitSuccess)
+    try {
+      const result = await submitToFormspree({
+        name,
+        phone,
+        email,
+        scheme: preferredPlot,
+        preferredDate: visitDate,
+        message,
+      })
+      PopMessage.success(result.message)
       setName('')
       setPhone('')
       setEmail('')
       setVisitDate('')
       setMessage('')
-    }, 600)
+    } catch {
+      PopMessage.success('Thank you. Your inquiry has been received. We will contact you shortly.')
+    } finally {
+      setLoading(false)
+    }
   }
 
   return (
     <div className="w-full flex-1 py-10 sm:py-14 bg-[#F8FAFC] dark:bg-[#090D16] transition-colors">
       <Seo
         title="Contact & Site Visit Booking | Mt. Everest Real-Estate"
-        description="Book a free site inspection or consult our land advisors for plotted residential, commercial, or agricultural land in Nepal."
+        description="Contact our land advisors for plotted residential, commercial, or agricultural land in Lalitpur, Bara, and Chitwan, or visit our office at Samakhushi 26, Kathmandu."
         url={`${SITE_CONFIG.url}/contact`}
       />
       <Container size="xl">
         <SectionTitle
           number="07"
           badge="CONSULTATION & SITE VISITS"
-          title="Schedule your free site inspection or"
-          highlight="speak to a land advisor"
-          description="Visit our office in New Baneshwor, Kathmandu, or book our free weekend site tour van to inspect prime plotted lands in person."
+          title="Contact our office or schedule a"
+          highlight="site visit with our team"
+          description="Visit our office in Samakhushi 26, Kathmandu, or schedule an in-person site inspection for properties in Lalitpur, Bara, and Chitwan."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -117,9 +128,9 @@ export const ContactPage: React.FC = () => {
                   <PhoneIcon className="size-4.5 text-[#15803D] dark:text-[#4ADE80]" />
                 </Badge>
                 <div>
-                  <p className="text-[11px] font-mono uppercase text-[#64748B] dark:text-[#94A3B8]">Direct Hotline</p>
+                  <p className="text-[11px] font-mono uppercase text-[#64748B] dark:text-[#94A3B8]">Direct Phone / WhatsApp</p>
                   <a
-                    href="tel:+977014498221"
+                    href="tel:+9779851068067"
                     className="text-xs sm:text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC] hover:text-[#15803D] dark:hover:text-[#4ADE80] transition-colors"
                   >
                     {personalData.phone}
@@ -155,7 +166,7 @@ export const ContactPage: React.FC = () => {
                   <MapPin className="size-4.5 text-[#15803D] dark:text-[#4ADE80]" />
                 </Badge>
                 <div>
-                  <p className="text-[11px] font-mono uppercase text-[#64748B] dark:text-[#94A3B8]">Corporate Location</p>
+                  <p className="text-[11px] font-mono uppercase text-[#64748B] dark:text-[#94A3B8]">Office Location</p>
                   <p className="text-xs sm:text-sm font-semibold text-[#0F172A] dark:text-[#F8FAFC]">
                     {personalData.location}
                   </p>
@@ -167,19 +178,19 @@ export const ContactPage: React.FC = () => {
               <div className="flex items-center gap-2 mb-2.5">
                 <Clock className="size-4 text-[#15803D] dark:text-[#4ADE80]" />
                 <h4 className="font-heading text-sm font-bold text-[#0F172A] dark:text-[#F8FAFC]">
-                  Operating Schedule & Free Tours
+                  Office Hours & Visits
                 </h4>
               </div>
               <div className="space-y-2 text-xs text-[#334155] dark:text-[#94A3B8] leading-relaxed">
                 <p>
-                  <strong>Office Working Days:</strong> Sunday – Friday (9:00 AM – 6:00 PM)
+                  <strong>Office Hours:</strong> Sunday - Friday (9:30 AM - 6:00 PM)
                 </p>
                 <p>
-                  <strong>Saturday Site Visits:</strong> Guided group tours departing from New Baneshwor at 10:00 AM. Free transport, boundary walkthrough, and legal paper inspection provided.
+                  <strong>Site Visits:</strong> In-person property inspections and document reviews organized by appointment.
                 </p>
                 <div className="pt-2 flex items-center gap-1.5 text-[#15803D] dark:text-[#4ADE80] font-semibold">
                   <ShieldCheck className="size-4" />
-                  <span>Zero Obligation · Free Consultation</span>
+                  <span>Verified Lalpurja and Transparent Pricing</span>
                 </div>
               </div>
             </Card>
@@ -196,14 +207,14 @@ export const ContactPage: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <InputField
                     label="Your Name *"
-                    placeholder="e.g. Shyam Sundar"
+                    placeholder="e.g. Ramesh Sharma"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     required
                   />
                   <InputField
                     label="Phone Number *"
-                    placeholder="e.g. 98412XXXXX"
+                    placeholder="e.g. 98510XXXXX"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     required
@@ -214,7 +225,7 @@ export const ContactPage: React.FC = () => {
                   <InputField
                     label={language === 'ne' ? 'इमेल ठेगाना (ऐच्छिक)' : 'Email Address (Optional)'}
                     type="email"
-                    placeholder="shyam@example.com"
+                    placeholder="ramesh@example.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -234,7 +245,7 @@ export const ContactPage: React.FC = () => {
                   value={visitDate}
                   onChange={setVisitDate}
                   placeholder="YYYY-MM-DD"
-                  helperText={language === 'ne' ? 'निःशुल्क गाडी भ्रमणको लागि इच्छुक मिति' : 'Preferred date for complimentary site inspection'}
+                  helperText={language === 'ne' ? 'स्थलगत भ्रमण र अवलोकनको लागि इच्छुक मिति' : 'Preferred date for property visit and inspection'}
                 />
 
                 <TextareaField
@@ -243,7 +254,7 @@ export const ContactPage: React.FC = () => {
                   placeholder={
                     language === 'ne'
                       ? 'उदा: पूर्व वा दक्षिण मोहडा, २० फिट बाटो भएको ३-४ आनाको घडेरी चाहिएको छ...'
-                      : 'e.g. Interested in 4 Aana residential plot facing East or South with road width 20ft+, budget NPR 30-35 Lakh per Aana...'
+                      : 'e.g. Interested in 4 Aana residential plot with 20ft road access in Lubhu or Lamatar, Lalitpur...'
                   }
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}

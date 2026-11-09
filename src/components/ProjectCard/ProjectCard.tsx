@@ -2,7 +2,7 @@ import { Card, CardContent, CardFooter } from '@/components/Card'
 import { Badge } from '@/components/Badge'
 import { Button } from '@/components/Button'
 import { MapPin, ArrowRight, CheckCircle2 } from '@/assets/icons'
-import { cn } from '@/utils'
+import { cn, getAssetUrl } from '@/utils'
 
 export interface ProjectItem {
   id: string
@@ -44,7 +44,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           onClick={() => onOpenDetails?.(project)}
         >
           <img
-            src={project.image}
+            src={getAssetUrl(project.image)}
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-102"
             loading="lazy"

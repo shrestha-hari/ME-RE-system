@@ -1,38 +1,38 @@
 {
   "name": "Mt. Everest Real-Estate",
   "shortName": "Mt. Everest Real-Estate",
-  "title": "Premier Land Plotting, Residential Colonies & Property Advisory",
-  "tagline": "Specializing in planned land plotting, clear Lalpurja ownership, wide road access, and high-appreciation properties across Kathmandu Valley and Nepal.",
-  "bio": "Mt. Everest Real-Estate is a premier land development and property advisory firm in Nepal. For over a decade, we have pioneered planned land plotting, master-planned residential colonies, and strategic commercial land acquisitions. With 100% verified cadastral boundaries, transparent legal documentation, and road connectivity, we empower families and investors to secure prime land with absolute peace of mind.",
-  "email": "info@mteverestrealestate.com.np",
-  "phone": "(+977) 01-4498221 / 9851082210",
-  "location": "New Baneshwor, Kathmandu, Nepal",
+  "title": "Land Plotting, Residential Plots & Property Advisory",
+  "tagline": "Real estate land plotting and verified land parcels in Lalitpur (Lubhu, Lamatar), Bara (Kolhabi), and Chitwan (Madi, Meghauli), with corporate office at Samakhushi 26, Kathmandu.",
+  "bio": "Mt. Everest Real-Estate assists families and buyers in finding genuine residential, commercial, and agricultural land in Nepal. We specialize in verified land plots in Lalitpur (Lubhu, Lamatar), Bara (Kolhabi), and Chitwan (Madi, Meghauli). With our head office located at Samakhushi 26, Kathmandu, clear Lalpurja ownership, accurate cadastral boundaries, and road access, we focus on safe and transparent property transactions.",
+  "email": "shresthah987@gmail.com",
+  "secondaryEmail": "haribahadurshrestha566@gmail.com",
+  "phone": "9851068067 / 9861080943",
+  "location": "Samakhushi 26, Kathmandu, Nepal",
   "website": "https://shrestha-hari.github.io/ME-RE-system",
-  "github": "https://facebook.com/mteverestrealestate",
-  "linkedin": "https://linkedin.com/company/mteverestrealestate",
-  "twitter": "https://x.com/everest_realty",
-  "linktree": "https://shrestha-hari.github.io/ME-RE-system/brochure.pdf",
+  "youtube": "https://www.youtube.com/@HariShrestha4",
+  "facebook": "https://www.facebook.com/hari.shrestha.65666",
+  "tiktok": "https://www.tiktok.com/@shrestha_h111",
+  "instagram": "https://www.instagram.com/shrestha366/",
+  "github": "https://github.com/shrestha-hari",
   "avatar": "./images/background.webp",
   "resumeUrl": "./images/brochure.pdf",
   "education": {
-    "degree": "Licensed Land Development & Cadastral Planning",
-    "institution": "Government of Nepal · Ministry of Land Management & Cooperatives Registered",
-    "period": "Est. 2012 - Present",
+    "degree": "Land Survey & Property Verification Services",
+    "institution": "Field Survey, Cadastral Demarcation and Malpot Title Support",
+    "period": "Active Land Advisory",
     "courses": [
       "Cadastral Map Demarcation (Napi)",
-      "Lalpurja Title Clearance & Likhat Pass",
-      "Master Colony Drainage & Roads",
-      "Municipal Building Code Compliance",
-      "Soil Bearing & Geotechnical Survey",
-      "Underground Water & Electricity Setup",
-      "Environmental Impact Assessment",
-      "Bank Financing & Valuation Support"
+      "Lalpurja Title Clearance and Likhat Pass",
+      "Plot Access Road Planning",
+      "Field Topography and Boundary Check",
+      "Electricity and Water Availability Verification",
+      "Bank Loan and Valuation Coordination"
     ]
   },
   "stats": [
-    { "label": "Plots Developed", "value": "650+", "unit": "Kathmandu & Beyond" },
-    { "label": "Legal Clearance", "value": "100%", "unit": "Verified Lalpurja" },
-    { "label": "Road Standards", "value": "20ft-30ft", "unit": "Blacktopped / Paved" },
-    { "label": "Industry Trust", "value": "14+ Yrs", "unit": "Nepal Real Estate" }
+    { "label": "Verified Plots", "value": "Lubhu & Lamatar", "unit": "Lalitpur" },
+    { "label": "Regional Land", "value": "Madi & Meghauli", "unit": "Chitwan" },
+    { "label": "Highway Plots", "value": "Kolhabi", "unit": "Bara" },
+    { "label": "Head Office", "value": "Samakhushi 26", "unit": "Kathmandu" }
   ]
 }

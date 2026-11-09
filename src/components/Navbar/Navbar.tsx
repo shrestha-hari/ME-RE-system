@@ -123,11 +123,11 @@ export const Navbar: React.FC<NavbarProps> = ({ className = '' }) => {
 
             {/* Direct Phone / Contact Action */}
             <a
-              href="tel:+977014498221"
+              href="tel:+9779851068067"
               className="hidden 2xl:flex items-center gap-1.5 text-xs font-semibold text-[#15803D] dark:text-[#4ADE80] px-2.5 py-1.5 rounded-[6px] hover:bg-[#DCFCE7]/60 dark:hover:bg-[#15803D]/20 transition-colors whitespace-nowrap"
             >
               <PhoneIcon className="size-3.5" />
-              <span>01-4498221</span>
+              <span>9851068067</span>
             </a>
 
             {/* Main Action Button */}

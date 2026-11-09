@@ -4,7 +4,7 @@ import { Button } from '@/components/Button'
 import { Modal } from '@/components/Modal'
 import { ChevronLeft, ChevronRight, Eye } from '@/assets/icons'
 import { galleryData } from '@/data'
-import { cn } from '@/utils'
+import { cn, getAssetUrl } from '@/utils'
 
 export interface GalleryItem {
   id: string
@@ -82,7 +82,7 @@ export const Gallery: React.FC<GalleryProps> = ({
           >
             <div className="relative aspect-[4/5] bg-[#F5F7F6] dark:bg-[#1E293B] rounded-[6px] overflow-hidden">
               <img
-                src={item.image}
+                src={getAssetUrl(item.image)}
                 alt={item.alt || 'Mt. Everest Real-Estate site photo'}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
@@ -118,7 +118,7 @@ export const Gallery: React.FC<GalleryProps> = ({
           <div className="space-y-3 pt-2">
             <div className="w-full max-h-[75vh] rounded-[8px] overflow-hidden bg-[#0F172A] flex items-center justify-center">
               <img
-                src={selectedItem.image}
+                src={getAssetUrl(selectedItem.image)}
                 alt={selectedItem.alt || 'Full size photo'}
                 className="w-full h-auto max-h-[75vh] object-contain"
               />

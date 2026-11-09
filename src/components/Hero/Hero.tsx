@@ -8,7 +8,7 @@ import { Select } from '@/components/Select'
 import { ArrowRight, ShieldCheck, CheckCircle2 } from '@/assets/icons'
 import { personalData } from '@/data'
 import { useTranslation } from '@/i18n'
-import { cn } from '@/utils'
+import { cn, getAssetUrl } from '@/utils'
 
 export interface HeroProps {
   className?: string
@@ -33,24 +33,16 @@ export const Hero: React.FC<HeroProps> = ({
   const locationOptions = [
     { value: 'All', label: t.hero.allLocations },
     {
-      value: 'Kathmandu',
-      label: language === 'ne' ? 'काठमाडौं (बुढानीलकण्ठ / मातातीर्थ)' : 'Kathmandu (Budhanilkantha / Matatirtha)',
-    },
-    {
       value: 'Lalitpur',
-      label: language === 'ne' ? 'ललितपुर (गोदावरी / इमाडोल)' : 'Lalitpur (Godawari / Imadol)',
+      label: language === 'ne' ? 'ललितपुर (लुभु / लामाटार)' : 'Lalitpur (Lubhu / Lamatar)',
     },
     {
-      value: 'Bhaktapur',
-      label: language === 'ne' ? 'भक्तपुर (सल्लाघारी / चाँगुनारायण)' : 'Bhaktapur (Sallaghari / Changunarayan)',
-    },
-    {
-      value: 'Pokhara',
-      label: language === 'ne' ? 'पोखरा (पामे / हेम्जा)' : 'Pokhara (Pame / Hemja)',
+      value: 'Bara',
+      label: language === 'ne' ? 'बारा (कोल्हवी मुख्य सडक)' : 'Bara (Kolhabi Highway Belt)',
     },
     {
       value: 'Chitwan',
-      label: language === 'ne' ? 'चितवन तथा मुख्य राजमार्ग' : 'Chitwan & Highway Belt',
+      label: language === 'ne' ? 'चितवन (माडी / मेघौली)' : 'Chitwan (Madi / Meghauli)',
     },
   ]
 
@@ -75,7 +67,7 @@ export const Hero: React.FC<HeroProps> = ({
         <div
           className="absolute inset-0 bg-cover bg-center transition-opacity duration-500 opacity-20 dark:opacity-15"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop')`,
+            backgroundImage: `url('${getAssetUrl('images/background.webp')}')`,
             filter: 'saturate(1.05) brightness(0.95)',
           }}
         />
@@ -220,8 +212,8 @@ export const Hero: React.FC<HeroProps> = ({
               {/* Plot Image Container */}
               <div className="relative w-full aspect-[4/3] rounded-[6px] overflow-hidden bg-[#F1F5F9] dark:bg-[#1E293B] border border-[#E2E8F0] dark:border-[#1F2937]">
                 <img
-                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=900&auto=format&fit=crop"
-                  alt="Everest Green Valley Plotted Land"
+                  src={getAssetUrl('images/projects/lubhu.webp')}
+                  alt="Lubhu Residential Plotted Colony"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute top-2.5 left-2.5">
@@ -231,7 +223,7 @@ export const Hero: React.FC<HeroProps> = ({
                 </div>
                 <div className="absolute bottom-2.5 right-2.5">
                   <span className="px-2 py-0.5 rounded-[4px] bg-[#0F172A]/85 text-white text-xs font-medium">
-                    Godawari, Lalitpur
+                    Lubhu, Lalitpur
                   </span>
                 </div>
               </div>
@@ -240,19 +232,19 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="mt-3.5">
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-semibold text-[#15803D] dark:text-[#4ADE80]">
-                    {language === 'ne' ? 'आवासीय प्लटिङ' : 'Residential Colony'}
+                    {language === 'ne' ? 'आवासीय प्लटिङ' : 'Residential Scheme'}
                   </span>
                   <span className="text-sm font-bold text-[#0F172A] dark:text-[#F8FAFC]">
-                    {language === 'ne' ? 'रु ३२ लाख / आना' : 'NPR 32 Lakh / Aana'}
+                    {language === 'ne' ? 'रु २२ लाख / आना' : 'NPR 22 Lakh / Aana'}
                   </span>
                 </div>
                 <h3 className="font-heading text-base font-bold text-[#0F172A] dark:text-[#F8FAFC] mt-1">
-                  {language === 'ne' ? 'एभरेष्ट ग्रीन भ्याली प्लटिङ' : 'Everest Green Valley Plots'}
+                  {language === 'ne' ? 'लुभु आवासीय प्लटिङ योजना' : 'Lubhu Residential Plotted Colony'}
                 </h3>
                 <p className="text-xs text-[#64748B] dark:text-[#94A3B8] mt-1 leading-relaxed">
                   {language === 'ne'
-                    ? 'फूलचोकी दृश्यसहित, २२ फिट कालोपत्रे सडक, भूमिगत बिजुली र तत्काल नामसारी हुने लालपुर्जा।'
-                    : 'Lush Himalayan view plots with 22ft blacktop road, underground electricity, and verified Lalpurja.'}
+                    ? 'शान्त वातावरण, २० फिट फराकिलो बाटो, बिजुली र पानी सुविधासहित तत्काल नामसारी हुने लालपुर्जा।'
+                    : 'Peaceful residential plots with 20ft road access, electricity, and verified Lalpurja ready for transfer.'}
                 </p>
               </div>
 

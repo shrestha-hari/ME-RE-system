@@ -51,15 +51,15 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
             <div className="pt-2 flex flex-col gap-1.5 text-xs text-[#64748B] dark:text-[#94A3B8]">
               <div className="flex items-center gap-2">
                 <MapPin className="size-3.5 text-[#15803D] dark:text-[#4ADE80] shrink-0" />
-                <span>{language === 'ne' ? 'नयाँ बानेश्वर (आइप्लेक्स मल अगाडि), काठमाडौं, नेपाल' : 'New Baneshwor (Opposite Eyeplex Mall), Kathmandu, Nepal'}</span>
+                <span>{language === 'ne' ? 'सामाखुसी २६, काठमाडौं, नेपाल' : 'Samakhushi 26, Kathmandu, Nepal'}</span>
               </div>
               <div className="flex items-center gap-2">
                 <PhoneIcon className="size-3.5 text-[#15803D] dark:text-[#4ADE80] shrink-0" />
-                <span>01-4498221 / +977 9851082210 ({language === 'ne' ? 'सिधा हटलाइन' : 'Direct Office Hotline'})</span>
+                <span>9851068067 / 9861080943 ({language === 'ne' ? 'सिधा सम्पर्क' : 'Direct Call / WhatsApp'})</span>
               </div>
               <div className="flex items-center gap-2">
                 <MailIcon className="size-3.5 text-[#15803D] dark:text-[#4ADE80] shrink-0" />
-                <span>info@mteverestrealestate.com.np</span>
+                <span>shresthah987@gmail.com</span>
               </div>
             </div>
           </div>
@@ -90,13 +90,13 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
             <p className="text-xs text-[#64748B] dark:text-[#94A3B8] leading-relaxed">
               {language === 'ne' ? (
                 <>
-                  आइतबार – शुक्रबार: बिहान ९:०० देखि साँझ ६:०० सम्म<br />
-                  शनिबार: निःशुल्क स्थलगत अवलोकन (अग्रिम बुकिङ)
+                  आइतबार - शुक्रबार: बिहान ९:३० देखि साँझ ६:०० सम्म<br />
+                  शनिबार: अवलोकन तथा परामर्श (अग्रिम सम्पर्क)
                 </>
               ) : (
                 <>
-                  Sunday – Friday: 9:00 AM – 6:00 PM<br />
-                  Saturday: Guided Site Visits (by Appointment)
+                  Sunday - Friday: 9:30 AM - 6:00 PM<br />
+                  Saturday: Property Visits by Appointment
                 </>
               )}
             </p>
@@ -126,7 +126,7 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
             <span aria-hidden="true" className="text-[#CBD5E1] dark:text-[#374151]">·</span>
             <span>{t.footer.reanMember}</span>
           </div>
-          <p>{language === 'ne' ? 'काठमाडौं उपत्यका · पोखरा · चितवन' : 'Kathmandu Valley · Pokhara · Chitwan'}</p>
+          <p>{language === 'ne' ? 'ललितपुर (लुभु, लामाटार) · बारा (कोल्हवी) · चितवन (माडी, मेघौली) · काठमाडौं' : 'Lalitpur (Lubhu, Lamatar) · Bara (Kolhabi) · Chitwan (Madi, Meghauli) · Kathmandu'}</p>
         </div>
       </Container>
     </footer>

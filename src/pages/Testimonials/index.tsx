@@ -76,7 +76,7 @@ export const TestimonialsPage: React.FC = () => {
             badge="BUYER STORIES & EXPERIENCES"
             title="Voices of satisfied landowners &"
             highlight="property investors"
-            description="Genuine feedback from clients who purchased residential plots, commercial lands, and resort parcels across Kathmandu Valley and Nepal."
+            description="Genuine feedback from clients who purchased residential plots, commercial lands, and resort parcels across Lalitpur, Bara, and Chitwan."
             className="mb-6"
           />
 
@@ -150,10 +150,10 @@ export const TestimonialsPage: React.FC = () => {
         <div className="mt-12 p-6 sm:p-8 rounded-[8px] bg-white dark:bg-[#111827] border border-[#E2E8F0] dark:border-[#1F2937] flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-xs">
           <div className="max-w-2xl">
             <h2 className="font-heading font-bold text-lg sm:text-xl text-[#0F172A] dark:text-[#F8FAFC]">
-              Ready to secure your land in Kathmandu Valley?
+              Ready to secure your land in Lalitpur, Bara, or Chitwan?
             </h2>
             <p className="text-xs sm:text-sm text-[#334155] dark:text-[#94A3B8] mt-1.5 leading-relaxed">
-              Join over 650+ satisfied families and investors. Schedule a free site visit this Saturday with our land consultants and inspect legal deeds before making any commitment.
+              Schedule a property visit with our team and inspect legal deeds before making any commitment.
             </p>
           </div>
 
@@ -163,9 +163,9 @@ export const TestimonialsPage: React.FC = () => {
                 Book Site Inspection
               </Button>
             </Link>
-            <a href="tel:+977014498221">
+            <a href="tel:+9779851068067">
               <Button variant="secondary" size="md" className="rounded-[6px] font-semibold" leftIcon={<PhoneIcon className="size-4" />}>
-                Call 01-4498221
+                Call 9851068067
               </Button>
             </a>
           </div>

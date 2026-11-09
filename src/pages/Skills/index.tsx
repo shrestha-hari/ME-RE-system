@@ -23,7 +23,7 @@ export const SkillsPage: React.FC = () => {
           badge="SERVICES & SOLUTIONS"
           title="Turnkey land development &"
           highlight="property advisory solutions"
-          description="We take care of every phase—from raw land acquisition and cadastral subdivision to legal registration and blacktop asphalt roads."
+          description="We take care of every phase, from raw land acquisition and cadastral subdivision to legal registration and blacktop roads."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -81,7 +81,7 @@ export const SkillsPage: React.FC = () => {
           <div className="mt-10 p-6 rounded-[8px] bg-white dark:bg-[#111827] border border-[#E2E8F0] dark:border-[#1F2937] shadow-xs flex flex-col sm:flex-row items-center justify-between gap-6">
             <div>
               <h3 className="font-heading text-base sm:text-lg font-bold text-[#0F172A] dark:text-[#F8FAFC]">
-                Looking to Plot or Sell Your Land in Kathmandu Valley?
+                Looking to Plot or Sell Your Land in Lalitpur, Bara, or Chitwan?
               </h3>
               <p className="text-xs sm:text-sm text-[#334155] dark:text-[#94A3B8] mt-1 max-w-xl">
                 We partner with landowners for joint venture (JV) plotting and provide end-to-end master planning, road grading, and direct buyer marketing.
